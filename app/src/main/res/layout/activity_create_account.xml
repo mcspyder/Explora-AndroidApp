@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="321dp"
+        android:layout_height="251dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/get_started_text"
+        android:layout_width="210dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="64dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Get Started"
+        android:textColor="#252525"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/image_view"
+        app:layout_constraintTop_toTopOf="@+id/image_view" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="by creating a free account."
+        app:layout_constraintTop_toBottomOf="@+id/get_started_text"
+        tools:layout_editor_absoluteX="136dp" />
+
+    <EditText
+        android:id="@+id/editTextFullname"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:hint="Full name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_and_conditions_text"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="556dp" />
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:fontFamily="@font/montserrat"
+        tools:layout_editor_absoluteY="636dp" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_a_member_login"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="700dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
