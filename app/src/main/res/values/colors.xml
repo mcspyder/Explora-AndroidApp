@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dark_purple">#6C63FF</color>
     <color name="light_purple">#9292FD</color>
-    <color name="light_blue">#8BB0D0</color>;
-
+    <color name="light_blue">#8BB0D0</color>
+    <color name="box_insides">#95B1CA</color>
+    <color name="turquoise">#CD7ECFDC</color>;
 </resources>
